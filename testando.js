@@ -1,4 +1,5 @@
-// Captura um número entre 1 e 10 e mostre o quadrado do número
+//fronteditor.dev 
+//Captura um número entre 1 e 10 e mostre o quadrado do número
 
 let numberInput = prompt("Digite um número entre 1 e 10");
 
