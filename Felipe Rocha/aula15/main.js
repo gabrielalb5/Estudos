@@ -29,6 +29,6 @@ submitButton.addEventListener('click', (e) => {
 
     items.appendChild(li);
 
-    nameValue = "";
-    emailValue = "";
+    nameInput.value = "";
+    emailInput.value = "";
 } );
