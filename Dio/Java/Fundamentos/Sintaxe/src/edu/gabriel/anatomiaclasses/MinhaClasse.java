@@ -1,3 +1,5 @@
+package edu.gabriel.anatomiaclasses;
+
 public class MinhaClasse {
     public static void main (String[] args){
         String primeiroNome = "Gabriel";
@@ -9,7 +11,7 @@ public class MinhaClasse {
     }
 
     public static String nomeCompleto(String primeiroNome, String segundoNome){
-        return "Resultado do método:"+primeiroNome+" "+segundoNome;
+        return "Resultado do método: "+primeiroNome+" "+segundoNome;
     }
 
 }
