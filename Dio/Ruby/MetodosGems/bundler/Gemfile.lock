@@ -1,0 +1,27 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.8.7)
+      public_suffix (>= 2.0.2, < 7.0)
+    domain_name (0.6.20240107)
+    http (3.3.0)
+      addressable (~> 2.3)
+      http-cookie (~> 1.0)
+      http-form_data (~> 2.0)
+      http_parser.rb (~> 0.6.0)
+    http-cookie (1.0.8)
+      domain_name (~> 0.5)
+    http-form_data (2.3.0)
+    http_parser.rb (0.6.0)
+    os (1.1.4)
+    public_suffix (6.0.1)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  http (~> 3.0)
+  os
+
+BUNDLED WITH
+   2.6.2
