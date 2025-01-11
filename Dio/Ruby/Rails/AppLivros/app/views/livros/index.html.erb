@@ -1,0 +1,18 @@
+<p style="color: green"><%= notice %></p>
+
+<% content_for :title, "Livros 2025" %>
+
+<h1>Leituras de 2025</h1>
+
+<div id="livros">
+  <% @livros.each do |livro| %>
+    <%= render livro %>
+    <p>
+      <%= link_to "Detalhes", livro %>
+    </p>
+  <% end %>
+</div>
+
+<div class="links">
+<%= link_to "Adicionar livro", new_livro_path %>
+</div>

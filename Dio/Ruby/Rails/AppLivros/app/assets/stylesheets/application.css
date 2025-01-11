@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div#livros a{
+    text-decoration: none;
+    color: rgb(0, 96, 117);
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+}
+
+form, form div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form input, form textarea{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+}
+
+.links a{
+    background-color: rgb(200, 200, 200);
+    color: rgb(65, 65, 65);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+form input[type="submit"]{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(0, 96, 117);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.links button{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+a:hover, button:hover, input[type="submit"]:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
